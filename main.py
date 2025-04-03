@@ -5,7 +5,7 @@ from PIL import Image
 from util import classify
 
 # Load the model
-model_path = r'C:\Users\rmoun\OneDrive\Documents\pythonProject_pn\model\pneumonia.h5'
+model_path = r'Your model's path'
 try:
     model = load_model(model_path)
     st.write(f"Model loaded successfully from: {model_path}")
